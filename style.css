@@ -56,3 +56,22 @@ body{
     border-radius: 15px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
+.grids{
+    background-color: rgb(21,12,12);
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    font-size: 48px;
+    padding: 20px;
+}
+.grid{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid col-1{
+    grid-column: 1/3;
+}
